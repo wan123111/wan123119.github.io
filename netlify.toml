@@ -1,6 +1,6 @@
 [build]
-  command = "pip install -r requirements.txt && gunicorn -w 4 -b '0.0.0.0:$PORT' app:app"
-  publish = "path/to/publish"
+  command = "npm run build"  
+  publish = "build" 
 
 [build.environment]
   PYTHON_VERSION = "3.11"
